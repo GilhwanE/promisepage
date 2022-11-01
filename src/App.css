@@ -72,5 +72,9 @@ body {
 .se_desc {
   width: 1140px;
   margin: 0 auto;
-  color: #ffffff;
+  color: #fff;
+}
+
+.footer.se_desc {
+  color: #616d7c;
 }

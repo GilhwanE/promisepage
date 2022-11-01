@@ -8,7 +8,7 @@ export const Footer = () => {
   return (
     <>
       <footer className="bg_container light-blue">
-        <div className="se_desc footer">
+        <div className="footer se_desc">
           <ul>
             <li>연락처</li>
             <li>이메일 : dyghks123@gmail.com</li>
