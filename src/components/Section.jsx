@@ -5,7 +5,7 @@ export const Section = () => {
   return (
     <>
       <section className="container">
-        <div className="se_title">
+        <div className="se_title" data-aos="fade-up">
           <h1>
             약속을 잡는
             <br />
@@ -18,7 +18,7 @@ export const Section = () => {
           <p>약속만들기</p>
         </div>
 
-        <div>
+        <div data-aos="fade-down">
           <img src={imgA} alt="달력이미지" />
         </div>
       </section>
