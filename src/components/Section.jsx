@@ -5,21 +5,23 @@ export const Section = () => {
   return (
     <>
       <section className="container">
-        <div className="se_title" data-aos="fade-up">
-          <h1>
-            약속을 잡는
-            <br />
-            가장 쉬운 방법
-          </h1>
-          <p>친구들과 약속을 잡아보세요</p>
-        </div>
+        <div className="wrapper">
+          <div className="se_title">
+            <h1>
+              약속을 잡는
+              <br />
+              가장 쉬운 방법
+            </h1>
+            <p>친구들과 약속을 잡아보세요</p>
+          </div>
 
-        <div>
-          <p>약속만들기</p>
-        </div>
+          <div className="btn promise">
+            <p>약속 만들기</p>
+          </div>
 
-        <div data-aos="fade-down">
-          <img src={imgA} alt="달력이미지" />
+          <div>
+            <img src={imgA} alt="달력이미지" />
+          </div>
         </div>
       </section>
 
