@@ -1,5 +1,11 @@
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;700&display=swap");
+@font-face {
+  font-family: "paybooc-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   background-color: #f2f4f6;
@@ -9,29 +15,37 @@ body {
 
 /* common */
 .btn {
+  font-family: "paybooc-Bold";
   padding: 30px 90px;
-  background: linear-gradient(0deg, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.2)), #3887fe;
+  background: linear-gradient(-45deg, #33ccff 0%, #4033fc 100%);
+
   color: #fff;
+  border-radius: 13px;
+  margin-bottom: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn p {
   font-size: 24px;
   font-weight: 500;
-  border-radius: 6px;
-  margin-bottom: 100px;
 }
 
 /* Header */
 #header {
   width: 100%;
   margin: 0 auto;
-  height: 126px;
+  height: 90px;
   background-color: rgba(255, 255, 255, 0.993);
 
   position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .header_inner {
   max-width: 1140px;
+  height: 90px;
   margin: 0 auto;
 }
 #header .logo {
@@ -44,7 +58,7 @@ body {
   width: 15%;
   height: 100%;
   background-image: url(./assets/image/logo.png);
-  background-position: 50px 45px;
+  background-position: 50px 30px;
   background-repeat: no-repeat;
   background-size: 140px;
   vertical-align: top;
@@ -62,15 +76,13 @@ body {
 .top_menu {
   display: flex;
   justify-content: center;
-  padding: 1.4rem;
   height: 100px;
-  align-items: flex-end;
+  align-items: center;
 }
 .top_menu span {
   font-size: 16px;
   font-weight: 700;
   margin-right: 70px;
-  margin-bottom: 20px;
   cursor: pointer;
 }
 .top_menu span:last-child {
@@ -123,9 +135,14 @@ body {
 }
 
 .se_desc {
-  width: 1140px;
+  width: 100%;
+  max-width: 1140px;
   margin: 0 auto;
   color: #fff;
+}
+
+.content_img img {
+  width: 100%;
 }
 
 /*  footer */

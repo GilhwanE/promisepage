@@ -6,7 +6,7 @@ export const Section = () => {
     <>
       <section className="container">
         <div className="wrapper">
-          <div className="se_title">
+          <div className="se_title" data-aos="fade-down">
             <h1>
               약속을 잡는
               <br />
@@ -19,7 +19,7 @@ export const Section = () => {
             <p>약속 만들기</p>
           </div>
 
-          <div>
+          <div className="content_img">
             <img src={imgA} alt="달력이미지" />
           </div>
         </div>
